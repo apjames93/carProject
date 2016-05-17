@@ -46,7 +46,7 @@ table {
   border-spacing: 0; }
 
 body {
-  background-color: #fff; }
+  background-color: #C7D0D5; }
 
 div {
   display: none; }
@@ -59,8 +59,8 @@ div {
   position: relative;
   display: block;
   height: 20vw;
-  width: 30vw;
-  background-color: #c4c4c4;
+  width: 35vw;
+  background-color: #93B1C6;
   padding: 1vw;
   margin: 1vw; }
 
@@ -70,8 +70,8 @@ div {
   color: #181816;
   position: relative;
   height: 20vw;
-  width: 30vw;
-  background-color: #c4c4c4;
+  width: 35vw;
+  background-color: #93B1C6;
   padding: 1vw;
   margin: 1vw; }
 
@@ -81,13 +81,14 @@ div {
   color: #181816;
   position: relative;
   height: 20vw;
-  width: 30vw;
-  background-color: #c4c4c4;
+  width: 35vw;
+  background-color: #93B1C6;
   padding: 1vw;
   margin: 1vw; }
 
 .submit {
-  display: none; }
+  display: none;
+  background-color: #C7D0D5; }
 
 .find-trim {
   display: none;
@@ -95,8 +96,8 @@ div {
   color: #181816;
   position: relative;
   height: 20vw;
-  width: 30vw;
-  background-color: #c4c4c4;
+  width: 35vw;
+  background-color: #93B1C6;
   padding: 1vw;
   margin: 1vw; }
 
@@ -105,9 +106,9 @@ div {
   float: left;
   color: #181816;
   position: relative;
-  height: 40vw;
-  width: 30vw;
-  background-color: #c4c4c4;
+  height: 50vw;
+  width: 35vw;
+  background-color: #93B1C6;
   padding: 1vw;
   margin: 1vw; }
 
@@ -116,9 +117,9 @@ div {
   float: left;
   color: #181816;
   position: relative;
-  height: 40vw;
-  width: 30vw;
-  background-color: #c4c4c4;
+  height: 50vw;
+  width: 35vw;
+  background-color: #93B1C6;
   padding: 1vw;
   margin: 1vw; }
 
@@ -127,3 +128,6 @@ div {
 
 .hide {
   display: none; }
+
+select {
+  background-color: #C7D0D5; }
