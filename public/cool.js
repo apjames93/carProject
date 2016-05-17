@@ -15,6 +15,7 @@ $(document).ready(function() {
         $(".car-model").empty()
         $(".car-year").empty()
         $('.car-model').append("<option>pick a model </option>")
+        $(".find-model").addClass("show")
         for (var i = 0; i < carData.makes.length; i++) {
             if (carData.makes[i].id == id) {
                 carMake = carData.makes[i];
@@ -25,6 +26,7 @@ $(document).ready(function() {
                         "<option name='role' value='" + carMake.models[model].id + "'>" + carMake.models[model].name + " </option>"
                     )
                 }
+
             }
         }
     })
@@ -32,6 +34,9 @@ $(document).ready(function() {
         var modelId = $(this).val();
         $(".car-year").empty()
         $('.car-year').append("<option>pick a year </option>")
+
+        $(".find-year").addClass("show")
+
         for (var i = 0; i < carMake.models.length; i++) {
             if (carMake.models[i].id == modelId) {
                 carModel = carMake.models[i];
@@ -47,6 +52,8 @@ $(document).ready(function() {
     })
     $(".car-year").on("change", function() {
         var yearId = $(this).val()
+  
+
         for (var i = 0; i < carModel.years.length; i++) {
             if (carModel.years[i].id == yearId) {
                 carYear = carModel.years[i].year
@@ -96,10 +103,10 @@ $('.car-trim').append("<option>pick trim </option>")
             }
         })
     })
-  //   $(".find-eng").on("click", function(){
-  //
-  //     $.get("https://api.edmunds.com/api/vehicle/v2/engines/"+ engId +"?fmt=json&api_key=jw8xqzaduaqsr5649c99gqny", function(data){
-  //       console.log(data)
-  //   })
-  // })
+// $(".save-eng").on("click", function(){
+//     $.get("https://api.edmunds.com/api/vehicle/v2/engines/"+ engId +"?fmt=json&api_key=jw8xqzaduaqsr5649c99gqny", function(data){
+//       console.log(data)
+//       console.log(data.code)
+//     })
+//    })
 })

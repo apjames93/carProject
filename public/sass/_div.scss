@@ -1,0 +1,57 @@
+
+div{
+  display: none;
+  &:hover{
+    box-shadow: 1vw 1vw 5px $black;
+  }
+}
+.find-make{
+  float: left;
+  color: $black;
+  position: relative;
+  display: block;
+  height:20vw;
+  width: 30vw;
+  background-color: $gray;
+  padding: .5vw;
+  margin: .5vw;
+}
+.find-model{
+  display: none;
+  float: left;
+  color: $black;
+  position: relative;
+  height:20vw;
+  width: 30vw;
+  background-color: $gray;
+  padding: 1vw;
+  margin: 1vw;
+}
+.find-year{
+  display: none;
+  float: left;
+  color: $black;
+  position: relative;
+  height:20vw;
+  width: 30vw;
+  background-color: $gray;
+  padding: .5vw;
+  margin: .5vw;
+}
+.find-trim{
+  display: none;
+  float: left;
+  color: $black;
+  position: relative;
+  height:20vw;
+  width: 30vw;
+  background-color: $gray;
+  padding: 2vw;
+  margin: .5vw;
+}
+.show{
+  display: block;
+}
+.hide{
+    display: none;
+}

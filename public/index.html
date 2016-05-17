@@ -1,48 +1,62 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css" />
-        <title>fine me a engine</title>
-    </head>
-    <body>
 
-      <h3> Find your car make</h3>
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <title>fine me a engine</title>
+</head>
 
-            <div class= "car-info">
-              <select class="car-make" name="">
-                  <option>car makes</option>
-              </select>
+<body>
+    <form class="" action="index.html" method="post">
+        <main>
+        <div class="find-make">
+            <h3> Find your car make</h3>
+            <select class="car-make" name="">
+                <option>car makes</option>
+            </select>
+          </div>
+          <div class="find-model">
+            <h3> Find your car model</h3>
+            <select class="car-model" name="">
+                <option>car model</option>
+            </select>
+          </div>
+          <div class="find-year">
+            <h3> Find your car year</h3>
+            <select class="car-year" name="">
+                <option>car year</option>
+            </select>
+          </div>
+          <div class="find-trim">
+            <button class="submit" type="button" name="button">click for trim options</button>
+        </div>
+      </main>
+      <section >
+        <div>
+            <select class="car-trim" name="">
+                <option>car trim</option>
+            </select>
+        </div>
+        <div>
+            <ul class="eng">
 
-                <h3> Find your car model</h3>
-              <select class="car-model" name="">
-                  <option>car model</option>
-              </select>
+            </ul>
+        </div>
+        <div>
+            <ul class="tranny">
 
-              <h3> Find your car year</h3>
-              <select class="car-year" name="">
-                  <option>car year</option>
-              </select>
-              <br>
-              <button class="submit" type="button" name="button">click for trim options</button>
-            </div>
-            <div>
-              <select class="car-trim" name="">
-                  <option>car trim</option>
-              </select>
-            </div>
-            <div>
-              <ul class="eng">
+            </ul>
+        </div>
+        <div>
+            <button class="save-eng" type="button" name="button">save eng </button>
+        </div>
+        <div class="your-eng">
+            <ul>
+            </ul>
+        </div>
+      </section>
+    </form>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+    <script src="cool.js"></script>
+</body>
 
-              </ul>
-            </div>
-            <div>
-              <ul class="tranny">
-
-              </ul>
-            </div>
-            <!-- <div>
-              <button class="find-eng" type="button" name="button">find eng </button>
-            </div> -->
-        <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
-        <script src="cool.js"></script>
-    </body>
 </html>
