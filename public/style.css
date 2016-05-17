@@ -1,0 +1,27 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: white;
+  /*background-color: hsla(244, 47%, 14%, 1);
+  */
+
+}
+select{
+  padding: 2vw;
+  margin: 2vw;
+    width: 10vw;
+    height: 5vw;
+}
+select{
+  height: 1vw;
+  width: 1wv;
+}
+/*.car-info{
+  color: white;
+  background-color: hsla(27, 33%, 11%, 1)
+  width: 100px;
+  height: 100px;
+  float:left;
+}*/
