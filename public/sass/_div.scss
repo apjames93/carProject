@@ -1,6 +1,8 @@
 
 div{
   display: none;
+  font-size: 3vw;
+  overflow: scroll;
   &:hover{
     box-shadow: 1vw 1vw 5px $black;
   }
@@ -39,8 +41,16 @@ div{
   margin: 1vw;
 }
 .submit{
-  display: none;
-  background-color: $gray;
+    display: none;
+    background-color:$gray;
+  	border-radius:0.5vw;
+  	border:0.5vw solid $black;
+  	color:$black;
+  	font-size:2vw;
+  	padding:1vw 1vw;
+    &:hover{
+      box-shadow: 1vw 1vw 5px $black;
+    }
 }
 .find-trim{
   display: none;
