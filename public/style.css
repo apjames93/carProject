@@ -61,8 +61,8 @@ div {
   height: 20vw;
   width: 30vw;
   background-color: #c4c4c4;
-  padding: .5vw;
-  margin: .5vw; }
+  padding: 1vw;
+  margin: 1vw; }
 
 .find-model {
   display: none;
@@ -83,8 +83,11 @@ div {
   height: 20vw;
   width: 30vw;
   background-color: #c4c4c4;
-  padding: .5vw;
-  margin: .5vw; }
+  padding: 1vw;
+  margin: 1vw; }
+
+.submit {
+  display: none; }
 
 .find-trim {
   display: none;
@@ -94,8 +97,30 @@ div {
   height: 20vw;
   width: 30vw;
   background-color: #c4c4c4;
-  padding: 2vw;
-  margin: .5vw; }
+  padding: 1vw;
+  margin: 1vw; }
+
+.eng-spec {
+  display: none;
+  float: left;
+  color: #181816;
+  position: relative;
+  height: 40vw;
+  width: 30vw;
+  background-color: #c4c4c4;
+  padding: 1vw;
+  margin: 1vw; }
+
+.tranny-spec {
+  display: none;
+  float: left;
+  color: #181816;
+  position: relative;
+  height: 40vw;
+  width: 30vw;
+  background-color: #c4c4c4;
+  padding: 1vw;
+  margin: 1vw; }
 
 .show {
   display: block; }

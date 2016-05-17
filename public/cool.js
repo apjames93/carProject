@@ -52,7 +52,7 @@ $(document).ready(function() {
     })
     $(".car-year").on("change", function() {
         var yearId = $(this).val()
-  
+  $(".submit").addClass("show")
 
         for (var i = 0; i < carModel.years.length; i++) {
             if (carModel.years[i].id == yearId) {
@@ -61,9 +61,11 @@ $(document).ready(function() {
             }
         }
     })
+
     $('.submit').on("click", function() {
-$(".car-trim").empty()
-$('.car-trim').append("<option>pick trim </option>")
+      $(".car-trim").empty()
+      $(".find-trim").addClass("show")
+      $('.car-trim').append("<option>pick trim </option>")
         $.get("https://api.edmunds.com/api/vehicle/v2/" + carMake.name + "/" + carModel.name + "/" + carYear + "?fmt=json&api_key=jw8xqzaduaqsr5649c99gqny", function(data1) {
             for (var i = 0; i < data1.styles.length; i++) {
                 $('.car-trim').append(
@@ -74,7 +76,9 @@ $('.car-trim').append("<option>pick trim </option>")
     })
     $(".car-trim").on("change", function() {
       $(".eng").empty()
+      $(".eng-spec").addClass("show")
       $(".tranny").empty()
+      $(".tranny-spec").addClass("show")
         var carTrim = $(this).val()
         $.get("https://api.edmunds.com/api/vehicle/v2/styles/" + carTrim + "/engines?fmt=json&api_key=jw8xqzaduaqsr5649c99gqny", function(data) {
             var eng = data.engines[0];

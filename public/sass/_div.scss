@@ -13,8 +13,8 @@ div{
   height:20vw;
   width: 30vw;
   background-color: $gray;
-  padding: .5vw;
-  margin: .5vw;
+  padding: 1vw;
+  margin: 1vw;
 }
 .find-model{
   display: none;
@@ -35,8 +35,11 @@ div{
   height:20vw;
   width: 30vw;
   background-color: $gray;
-  padding: .5vw;
-  margin: .5vw;
+  padding: 1vw;
+  margin: 1vw;
+}
+.submit{
+  display: none;
 }
 .find-trim{
   display: none;
@@ -46,8 +49,30 @@ div{
   height:20vw;
   width: 30vw;
   background-color: $gray;
-  padding: 2vw;
-  margin: .5vw;
+  padding: 1vw;
+  margin: 1vw;
+}
+.eng-spec{
+  display: none;
+  float: left;
+  color: $black;
+  position: relative;
+  height:40vw;
+  width: 30vw;
+  background-color: $gray;
+  padding: 1vw;
+  margin: 1vw;
+}
+.tranny-spec{
+  display: none;
+  float: left;
+  color: $black;
+  position: relative;
+  height:40vw;
+  width: 30vw;
+  background-color: $gray;
+  padding: 1vw;
+  margin: 1vw;
 }
 .show{
   display: block;
