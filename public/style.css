@@ -48,12 +48,15 @@ table {
 body {
   background-color: #C7D0D5; }
 
+h1, h3 {
+  background-color: #F5F5F5; }
+
 div {
   display: none;
   font-size: 3vw;
   overflow: scroll; }
   div:hover {
-    box-shadow: 1vw 1vw 5px #181816; }
+    box-shadow: 1vw 1vw 5px #F5F5F5; }
 
 .find-make {
   float: left;
@@ -139,4 +142,5 @@ div {
   display: none; }
 
 select {
-  background-color: #C7D0D5; }
+  background-color: #C7D0D5;
+  width: 50%; }

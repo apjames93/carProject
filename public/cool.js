@@ -40,10 +40,10 @@ $(document).ready(function() {
         for (var i = 0; i < carMake.models.length; i++) {
             if (carMake.models[i].id == modelId) {
                 carModel = carMake.models[i];
-                for (var i = 0; i < carModel.years.length; i++) {
+                for (var j = 0; j < carModel.years.length; j++) {
 
                     $('.car-year').append(
-                        "<option name='role' value='" + carModel.years[i].id + "'>" + carModel.years[i].year + " </option>"
+                        "<option name='role' value='" + carModel.years[j].id + "'>" + carModel.years[j].year + " </option>"
                     )
                 }
 

@@ -1,0 +1,16 @@
+body{
+  background-size: cover;
+  background-image: url(http://cdn.pinthiscars.com/images/2016-acura-nsx-interior-wallpaper-5.jpg);
+  color: #F5F5F5;
+}
+div{
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+button{
+    background-color:#C7D0D5;
+  	color:#181816;
+  	font-size:1vw;
+  	padding:1vw 1vw;
+    }
