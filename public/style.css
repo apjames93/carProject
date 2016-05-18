@@ -1,142 +1,27 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
+html{
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: white;
+  /*background-color: hsla(244, 47%, 14%, 1);
+  */
 
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-body {
-  line-height: 1; }
-
-ol, ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-body {
-  background-color: #C7D0D5; }
-
-div {
-  display: none;
-  font-size: 3vw;
-  overflow: scroll; }
-  div:hover {
-    box-shadow: 1vw 1vw 5px #181816; }
-
-.find-make {
-  float: left;
-  color: #181816;
-  position: relative;
-  display: block;
-  height: 20vw;
-  width: 35vw;
-  background-color: #93B1C6;
-  padding: 1vw;
-  margin: 1vw; }
-
-.find-model {
-  display: none;
-  float: left;
-  color: #181816;
-  position: relative;
-  height: 20vw;
-  width: 35vw;
-  background-color: #93B1C6;
-  padding: 1vw;
-  margin: 1vw; }
-
-.find-year {
-  display: none;
-  float: left;
-  color: #181816;
-  position: relative;
-  height: 20vw;
-  width: 35vw;
-  background-color: #93B1C6;
-  padding: 1vw;
-  margin: 1vw; }
-
-.submit {
-  display: none;
-  background-color: #C7D0D5;
-  border-radius: 0.5vw;
-  border: 0.5vw solid #181816;
-  color: #181816;
-  font-size: 2vw;
-  padding: 1vw 1vw; }
-  .submit:hover {
-    box-shadow: 1vw 1vw 5px #181816; }
-
-.find-trim {
-  display: none;
-  float: left;
-  color: #181816;
-  position: relative;
-  height: 20vw;
-  width: 35vw;
-  background-color: #93B1C6;
-  padding: 1vw;
-  margin: 1vw; }
-
-.eng-spec {
-  display: none;
-  float: left;
-  color: #181816;
-  position: relative;
-  height: 50vw;
-  width: 35vw;
-  background-color: #93B1C6;
-  padding: 1vw;
-  margin: 1vw; }
-
-.tranny-spec {
-  display: none;
-  float: left;
-  color: #181816;
-  position: relative;
-  height: 50vw;
-  width: 35vw;
-  background-color: #93B1C6;
-  padding: 1vw;
-  margin: 1vw; }
-
-.show {
-  display: block; }
-
-.hide {
-  display: none; }
-
-select {
-  background-color: #C7D0D5; }
+}
+select{
+  padding: 2vw;
+  margin: 2vw;
+    width: 10vw;
+    height: 5vw;
+}
+select{
+  height: 1vw;
+  width: 1wv;
+}
+/*.car-info{
+  color: white;
+  background-color: hsla(27, 33%, 11%, 1)
+  width: 100px;
+  height: 100px;
+  float:left;
+}*/
